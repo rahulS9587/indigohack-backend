@@ -3,7 +3,7 @@ package com.example.model;
 
 import java.util.Date;
 
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.Id;;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
