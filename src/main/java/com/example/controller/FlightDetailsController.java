@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import com.example.model.FlightDetails;
 import com.example.service.FlightDetailsService;
 
-@RestController
+@Controller
 @RequestMapping("/flight-details")
 public class FlightDetailsController {
 	
