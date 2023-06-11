@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.model.Passenger;
 import com.example.service.passenger_serviceImpl;
 
-@RestController
+@Controller
 @RequestMapping("/passengers")
 public class passenger_controller {
 	
