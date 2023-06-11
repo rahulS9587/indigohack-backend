@@ -24,6 +24,11 @@ public class passenger_controller {
 	@Autowired
 	passenger_serviceImpl passengerService;
 	
+	@RequestMapping("/passengers")
+	public void get(){
+		return index.html;
+	}
+	
 	 @GetMapping
 	    public Iterable<Passenger> getAllPassengers() {
 	        return passengerService.getAllPassengers();
